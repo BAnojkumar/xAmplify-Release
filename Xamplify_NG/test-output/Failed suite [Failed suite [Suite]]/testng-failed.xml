@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <test thread-count="5" name="Testuploadcontent(failed)(failed)(failed)">
+    <classes>
+      <class name="Xamplify_TNG.UploadContent">
+        <methods>
+          <include name="Content_Dropbox"/>
+          <include name="Content_MouseHover"/>
+        </methods>
+      </class> <!-- Xamplify_TNG.UploadContent -->
+    </classes>
+  </test> <!-- Testuploadcontent(failed)(failed)(failed) -->
+  <test thread-count="5" name="Testmanagevideos(failed)(failed)(failed)">
+    <classes>
+      <class name="Xamplify_TNG.Managevideos">
+        <methods>
+          <include name="delete"/>
+          <include name="Managevideo_MouseHover"/>
+        </methods>
+      </class> <!-- Xamplify_TNG.Managevideos -->
+    </classes>
+  </test> <!-- Testmanagevideos(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

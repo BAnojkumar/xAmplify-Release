@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+<test name="Test_Login_Social">
+  <classes>
+    <class name="Xamplify_TNG.Login_Social" />
+  </classes>
+</test>    
+
+  <test name="TestUploadContent">
+  <classes>
+    <class name="Xamplify_TNG.UploadContent" />
+  </classes>
+ </test>   
+ 
+<!--  <test name="TestManagevideos">
+  <classes>
+    <class name="Xamplify_TNG.Managevideos" />
+  </classes>
+ </test>  -->
+ 
+<!--  <test name="TestManageContent">
+  <classes>
+    <class name="Xamplify_TNG.ManageContent" />
+  </classes>
+ </test>   -->
+
+ <!--  <test name="Testwebcam">
+  <classes>
+    <class name="Xamplify_TNG.webcam" />
+  </classes>
+ </test>   -->
+ </suite> 
+
+
+

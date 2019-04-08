@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Xamplify_TNG.UploadContent">
+        <methods>
+          <include name="video_dropbox"/>
+          <include name="video_box"/>
+          <include name="Content_Dropbox"/>
+          <include name="Content_MouseHover"/>
+          <include name="Content_box"/>
+        </methods>
+      </class> <!-- Xamplify_TNG.UploadContent -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

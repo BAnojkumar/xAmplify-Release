@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestUploadContent(failed)">
+    <classes>
+      <class name="Xamplify_TNG.UploadContent">
+        <methods>
+          <include name="Content_MouseHover"/>
+          <include name="Content_box"/>
+        </methods>
+      </class> <!-- Xamplify_TNG.UploadContent -->
+    </classes>
+  </test> <!-- TestUploadContent(failed) -->
+</suite> <!-- Failed suite [Suite] -->
